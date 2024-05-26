@@ -1,0 +1,213 @@
+body{
+    padding-top: 60px;
+    color:black;
+}
+header{
+    position: fixed;
+    top:0;
+    z-index: 9999;
+    width:100%;
+    background-color: white;
+    color: black;
+}
+nav{
+  float:right !important;
+  font-weight: bold;
+}
+.nav ul li a{
+    color: black;
+    padding:10px 10px !important;
+}
+.ll{
+    padding-right:60px;
+}
+header img{
+    height:60px;
+    width: 200px;
+}
+.hh{
+    margin-top: 7px;
+    font-family: Poetsen One;
+}
+.card {
+    width: 160px;
+    height: 240px;
+    padding: .8em;
+    background: #f5f5f5;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+  .card-img {
+    height: 40%;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+  }
+
+  .card-info {
+    padding-top: 10%;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+
+  /*Text*/
+  .text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+
+  .text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+  }
+
+  /*Button*/
+  .card-button {
+    border: 1px solid #252525;
+    display: flex;
+    padding: .3em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+  }
+
+  /*Hover*/
+  .card-img:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 20px;
+  }
+
+  /* main  */
+  .my-main {
+    width: 90%;
+    height: 550px;
+    box-shadow: 3px 3px 20px rgb(43, 33, 33) !important; 
+  }
+
+  /*  container-01*/
+  .my-container {
+    margin-top: 130px;
+    width: 100%;
+  }
+
+  ;
+
+  /* head */
+  .head {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    height: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+  }
+
+  /* header */
+  .header {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  /* my-h1 */
+  .my-h1 {
+    position: relative;
+    top: 30px;
+    color:black;
+
+  }
+
+  /* product-h1 */
+  .product-h1 {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+  }
+
+  /* My button */
+  .my-button {
+    border: none;
+    outline: none;
+  }
+
+  .my-button:hover {
+    background-color: #f0babe;
+    opacity: 1;
+  }
+
+  .my-card {
+    gap: 150px;
+  }
+
+  /* upcoming products  start*/
+  .card-up {
+    width: 300px;
+    perspective: 1000px;
+    box-shadow: 3px 3px 20px;
+  }
+
+  .card-front-up {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+  }
+
+  /* upcoming products end */
+.ab{
+  margin:80px 0;
+  color:black;
+}
+  .ab1{
+  float:left;
+
+}
+.ab2{
+  float:right;
+
+}
+.abimg{
+  height: 300px;
+  width:400px;
+
+}
+.abimg img{
+  height:100%;
+  width:100%;
+  border-radius: 0px 60px;
+}
+footer{
+  clear:both;
+    background-color: white;
+    color:black;
+    margin-top: 60px;
+}
+.sli{
+    color:black !important;
+    margin-bottom:100px;
+}
+.slibtn{
+    color: black !important;
+    border-color: black !important;
+}
